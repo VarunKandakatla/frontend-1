@@ -1,0 +1,37 @@
+
+/* 
+/ Format we use /
+            selector1, selector2{
+                property1 : Value1;
+                property2 : Value2;
+                property3 : Value3;
+            }
+
+// Elements we use
+
+            div{
+                width: 100px;
+                height: 100px;
+                border: 1px solid black;
+                background: pink;
+                padding: 10px;
+                margin: auto;
+                color: blue;
+                text-align: center;
+                font-size: 20px;
+                font-weight: 900;
+            }
+
+ */
+
+
+ h1{
+    color: gold;
+    width:auto;
+    height:fit-content;
+    padding:3%;
+    text-align: center;
+    margin:10px;
+    background-color: black;
+    border: 2px solid rgb(5, 246, 5);
+ }
