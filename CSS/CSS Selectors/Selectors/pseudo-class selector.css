@@ -1,0 +1,32 @@
+
+/* link class for unvisited */
+
+.lynk:link{
+    color:greenyellow
+}
+
+/* visited selector for visited links */
+.lynk:visited{
+    color:red;
+}
+
+/* hover selector */
+.pc :hover{
+    color:darkseagreen ;
+}
+
+.lynk:first-child{
+    color: rgb(0, 72, 255);
+}
+
+.vfx:focus{
+    color: greenyellow;
+    /* border: 300px; */
+    outline: auto;
+    cursor: pointer;
+}
+
+div>h2{
+    color:blueviolet;
+    background-color: rgb(30, 210, 42);
+}
