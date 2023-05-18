@@ -28,10 +28,11 @@
  h1{
     color: gold;
     width:auto;
-    height:fit-content;
+    height:50px;
     padding:3%;
     text-align: center;
     margin:10px;
     background-color: black;
     border: 2px solid rgb(5, 246, 5);
+    float:right;
  }

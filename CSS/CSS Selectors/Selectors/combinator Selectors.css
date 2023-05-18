@@ -1,0 +1,24 @@
+
+/* General Sibiling */
+ h2 ~ ol{
+    color: yellow;
+    background-color: black;
+}
+
+/* Adjacent sibling */
+
+h1+p{
+    color: aqua;
+}
+
+/* Child Selector */
+
+div>h2{
+    color:whitesmoke ;
+    background-color:blue ;
+}
+
+/* Descendant selector */
+.Cs ol{
+    color: aliceblue;
+}

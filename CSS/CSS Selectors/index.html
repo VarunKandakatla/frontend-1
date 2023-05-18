@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS Selectors</title>
+        <link rel="stylesheet" href="./Selectors/combinator Selectors.css">
+    </head>
+
+    <body>
+        <h1>Welcome to CSS Selectors</h1>
+
+        <p id="para1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia molestias quas aspernatur exercitationem qui accusamus laboriosam. Eaque soluta, aspernatur velit fugit illo, nesciunt odio, molestias dolores ratione et tempora placeat!</p>
+        <p id="para2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia molestias quas aspernatur exercitationem qui accusamus laboriosam. Eaque soluta, aspernatur velit fugit illo, nesciunt odio, molestias dolores ratione et tempora placeat!</p>
+        <p id="para3" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia molestias quas aspernatur exercitationem qui accusamus laboriosam. Eaque soluta, aspernatur velit fugit illo, nesciunt odio, molestias dolores ratione et tempora placeat!</p>
+
+       <!-- Types of Selectors -->
+        <div>
+            <h2>Types of Selectors:</h2>
+            <ol >
+                <li class="list">Simple Selectors</li>
+                <li class="list">Combinator selectors</li>
+                <li class="list">Pseudo-class Selectors</li>
+                <li class="list">Pseudo-element Selectors</li>
+                <li class="list">Attribute Selectors</li>
+            </ol>
+        </div>
+        <!-- Simple Selectors -->
+        <div class="selectors">
+            <h2 ><u>1.Simple Selector</u></h2>
+            <ol>
+                <li class="simple_Selectors">Tag :- Selects all elements within the tags </li>
+                <li class="simple_Selectors">id :- id is Unique always. It selects the elements with the given id <b>(#id-name)</b></li>
+                <li class="simple_Selectors">class :- selects the elements which has same class names. <b>(.class_name)</b></li>
+                <li class="simple_Selectors">Universal(*) :- It selects all the elements <b>(*)</b></li>
+                <li class="simple_Selectors" >Grouping :- Diffenrent combinations can be grouped by adding , </li>
+            </ol>
+        </div>
+
+        <!-- combinator selectors -->
+        <div class="Cs">
+            <h2><u>2.Combinator Selector</u></h2>
+            <p>combinations of all simple selectors</p>
+            <ol>
+                <li>General Sibling Selector (~) :- Targets all next sibling tags of a specific tag.</li>
+                <li>Adjacent Sibling Selector (+) :- Targets immediate next sibling of a tag.</li>
+                <li>Child Selector (>) :- Targets next children of a specific tag.</li>
+                <li>descendant Space (space) :- Targets all children and grand children of a specific tag.</li>
+            </ol>
+
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,54 @@
+/* 
+simple selectors :-> select all elements within the given tag;
+types: tag,Universal(*), Id, CLass, Grouping
+eg:- h1,p{
+    color:blue;
+} */
+
+/* Tag */
+h1{
+    color:darkmagenta ;
+    margin: 20px;
+    padding: 20px 40px;
+    border: 20px solid chocolate;
+    text-align: center;
+}
+
+
+/* Universal */ 
+    *{
+    /* color: green ; */
+    background-color: darkgray;
+}
+
+/* ID */
+#para1{
+    color: aqua;
+}
+
+/* Class */
+.para{
+    color: chartreuse;
+}
+
+.list{
+    color:yellow ;
+    font-weight: bold;
+}
+
+
+/* Grouping of diff elements i.e. tag, id, elements*/
+
+h2,#para2,.para{
+    color: darkmagenta;
+}
+
+#SS{
+    color: rgb(237, 6, 237);
+    background-color: black;
+    /* width: fit-content; */
+}
+
+.selector{
+    color: black;
+}
