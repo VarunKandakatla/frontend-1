@@ -1,0 +1,37 @@
+
+.parent{
+    background-color: aqua;
+    height:200vh;
+    position: sticky;
+
+}
+
+
+
+.child{
+
+    border: 1px solid;
+    height: 20px;
+   
+}
+
+.one{
+
+    background-color: yellow;
+    position: sticky;
+    top: 0px;
+    
+    
+}
+
+.two{
+  
+}
+
+.three{
+    background-color: bisque;
+    position: sticky;
+    top: 21px;
+    left:0px;
+    right: 0px;
+}
