@@ -1,0 +1,28 @@
+/* selector:pseudo element{
+
+} */
+
+
+/* div::first-letter{
+    color: brown;
+} */
+
+li::marker{
+
+    color: rgb(56, 241, 9);
+    font-weight: 600;
+}
+
+.pc{
+    background-color: aquamarine;
+    height:300px ;
+    position: relative;
+    bottom: -20px;
+    padding-top:  10px;
+}
+
+.pe{
+    background-color: antiquewhite;
+    padding-top:20px;
+}
+

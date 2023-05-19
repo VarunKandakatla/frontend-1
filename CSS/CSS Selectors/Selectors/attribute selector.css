@@ -1,0 +1,18 @@
+/* selector[type="text]{
+    fontsize:20px;
+ } */
+
+
+ input[type="search"]{
+    background-color: yellow;
+    font-size: 20px;
+ }
+
+ button[type="submit"]{
+    background-color: greenyellow;
+    margin: auto;
+    border:5px double red;
+    padding: 5px;
+    font-weight: 900;
+    color:brown ;
+ }
